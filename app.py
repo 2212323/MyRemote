@@ -1,7 +1,6 @@
+#增加内容
 from flask import Flask
-from flask_cors import CORS
-from models import db
-import config
+
 
 from auth import auth_bp
 from water_data import water_bp
