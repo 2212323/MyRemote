@@ -1,0 +1,670 @@
+commit 1f93ad12c4129e553bd666dfea37e1cd2cb7953c
+Merge: 5db6c08 174e76a
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed Jun 25 17:59:12 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 5db6c087b46609484dd45791f2941b4399bccf39
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed Jun 25 17:59:08 2025 +0800
+
+    增加对.idea目录的忽略
+
+commit 174e76a1b60f1ecea0b44cabf684458145509e9a
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Wed Jun 4 16:13:28 2025 +0800
+
+    修改管理中心
+
+commit dad383490972f40af2a18c65a2027db4d7f1c758
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Wed Jun 4 15:30:47 2025 +0800
+
+    修改axios下的url，需要自行在src下添加config文件相关格式查看doc组件说明
+
+commit 121ce09bf372f566a4d4887e83ba8a86ed9d5981
+Merge: 737ae2f a0284ee
+Author: RRRRReus <18537268802@163.com>
+Date:   Mon May 26 16:24:58 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 737ae2f76672b88a9930104e686b831d48dfadda
+Author: RRRRReus <18537268802@163.com>
+Date:   Mon May 26 16:24:52 2025 +0800
+
+    修复视频展示模块的固定大小bug（虽然现在还是固定大小）
+
+commit a0284ee15288a07cc23e6d29d0ca04f5298c7873
+Author: li-xinlong <lixlgood@foxmail.com>
+Date:   Mon May 26 01:24:30 2025 +0800
+
+    # 增加了水下系统的正态分布图
+
+commit e75ad971170f5179373c7a7243f93356aaf4b593
+Merge: 905cae6 3571ea1
+Author: li-xinlong <lixlgood@foxmail.com>
+Date:   Mon May 26 00:30:39 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 905cae6cbaf1f7d5710920f74bf1d4b74aeb4a86
+Author: li-xinlong <lixlgood@foxmail.com>
+Date:   Mon May 26 00:24:11 2025 +0800
+
+    # 调整水下系统的颜色
+
+commit 3571ea1eee395d0d7797f11c267566a4095b58bd
+Author: RRRRReus <18537268802@163.com>
+Date:   Mon May 26 00:20:48 2025 +0800
+
+    调整地图模块和市场数据获取模块的排布，修复maininfo整个模块与小页面不适配的问题
+
+commit ab30cfd861b8988be83f781ad0268502cca973b0
+Merge: 8df2223 ec009ea
+Author: RRRRReus <18537268802@163.com>
+Date:   Sun May 25 22:21:21 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 8df2223d048cace774c6487dd1f5a952aae5dcf6
+Author: RRRRReus <18537268802@163.com>
+Date:   Sun May 25 22:21:15 2025 +0800
+
+    修复maininfo视频模块超限
+
+commit ec009ea121bf588a6c33d94a01d100760ca49781
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Sun May 25 13:43:38 2025 +0800
+
+    # 移除未使用的侧边栏导航项
+    
+    从侧边栏组件中删除了“WaterDataViewer”、“MapTest”和“Dashboard”的链接。通过移除冗余或未使用的导航选项，简化了界面，提高了可维护性和用户体验。
+
+commit df93838362a7c5433670e5ad589072bb3565336c
+Merge: 2e7a35a eeb8343
+Author: wudizhiwan <2987183675@qq.com>
+Date:   Sun May 25 00:25:48 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit eeb83431ccfe0c3603f283c8cf6203a8ac3f9a69
+Merge: 62407ad 97017ef
+Author: RRRRReus <18537268802@163.com>
+Date:   Sun May 25 00:15:14 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 62407adfd17b74184767e641641348f2efd4068b
+Author: RRRRReus <18537268802@163.com>
+Date:   Sun May 25 00:13:56 2025 +0800
+
+    增加一个视频进行展示
+
+commit 2e7a35accbe88ce83aab715668d3f2f31d7ecae0
+Author: wudizhiwan <2987183675@qq.com>
+Date:   Sun May 25 00:10:57 2025 +0800
+
+    更换了新的数据中心页面
+
+commit 97017ef3aa6453ae173cb7074e708ddb6353d3a8
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Sat May 24 23:58:37 2025 +0800
+
+    # 天气与价格模块化
+    
+    添加天气面板和市场面板组件，增强主信息页面功能
+
+commit 6b57f7b5eccf12f4d2ee6f6bcd227e32e2b90327
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Sat May 24 23:40:38 2025 +0800
+
+    # 优化侧边栏
+    
+    优化侧边栏组件，添加拖拽调整宽度功能，并实现收起/展开效果；在主信息页面中添加地图测试组件；修复axios实例的baseURL为localhost
+
+commit e4844380a75898829eec937752dc77fc9e2d70f5
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Fri May 23 18:28:41 2025 +0800
+
+    添加简陋版的智能中心手机端页面
+
+commit b91e4741ce4526d8f271bdf0753c415db4338eed
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Fri May 23 17:48:40 2025 +0800
+
+    添加侧边栏对手机的支持
+
+commit 97a5e2d4204104f32283aefa8f90ffcdbfe4bcd3
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Fri May 23 16:59:01 2025 +0800
+
+    添加可在手机访问，请查看frontend/src/services/axiosins文件，改为本机的ip地址即可在手机访问
+
+commit 19bb54e1ccf140506b645e6284c9009f548e0f29
+Author: li-xinlong <lixlgood@foxmail.com>
+Date:   Fri May 23 02:37:34 2025 +0800
+
+    # 水下界面布局
+
+commit 87a93585d761c054b0dac9eb71395bb2a7276ca0
+Author: li-xinlong <lixlgood@foxmail.com>
+Date:   Fri May 23 02:36:33 2025 +0800
+
+    # 水下界面布局
+
+commit c19c62b18325a86d97cda8221ca74d63693bd7b6
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Thu May 22 22:05:14 2025 +0800
+
+    # 重构后端结构，分开文件放
+    
+    - 在 `auth.py` 中实现用户注册和登录，并对密码进行哈希处理
+    - 在 `ai_tools.py` 中创建用于聊天和图像识别的 AI 工具接口
+    - 在 `market.py` 中添加市场价格和趋势分析接口
+    - 在 `fish_data.py` 中实现从 CSV 文件获取鱼类数据的功能
+    - 在 `video_data.py` 中开发视频服务功能
+    - 在 `water_data.py` 中实现按名称检索水质数据的接口
+    - 在 `weather_data.py` 中添加从 OpenMeteo API 获取当前天气数据的功能
+    - 在 `config.py` 中配置数据库连接设置
+    - 在 `Oldmodels.py` 中定义用户模型
+
+commit 58ac3e2f920db820e1e0611d9266a71a3d8e0457
+Author: open-sun <163875468+open-sun@users.noreply.github.com>
+Date:   Thu May 22 09:50:34 2025 +0800
+
+    处理本地和仓库的冲突问题
+
+commit 92ff9610b1559da68b967381b0546a9ed33f9761
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Thu May 22 09:38:42 2025 +0800
+
+    执行命名规范
+
+commit 115670617a8e75ad33053c4bd858c18eab4cd192
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Thu May 22 09:33:39 2025 +0800
+
+    统一命名格式
+
+commit 5a959a34bfcf0f213f074663884dbf40c8577927
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Thu May 22 01:11:14 2025 +0800
+
+    # 解决重名问题，增加.env启动脚本
+
+commit 3b9307b86029c7cc2375399a45fd6b2d7a1fdb34
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Wed May 21 10:07:40 2025 +0800
+
+    添加养殖建议功能
+
+commit 2d1983b8eca0ed2614f796e79ebffd6afbf7dbe0
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Tue May 20 23:41:24 2025 +0800
+
+    美化识别页面，并统一API_KEY
+
+commit ec402c255a6d52c560a998df846e36d21f28395e
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Tue May 20 23:33:32 2025 +0800
+
+    图片识别功能
+
+commit a076f2662e6a47194321f2c6d3f095ee1bd82788
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Tue May 20 22:56:50 2025 +0800
+
+    添加用户管理的删除功能，优化用户管理，让管理员只能管理user
+
+commit 37ac89c063f557e23ea41a097d20898a428f700b
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Tue May 20 20:00:12 2025 +0800
+
+    增加对ai回答的markdown渲染
+
+commit b50074247c3289f33d4fb0c4074125c4b128f4d4
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Tue May 20 18:29:57 2025 +0800
+
+    加上了智能对话功能
+
+commit f8b925d4152e17107c3b8b83150001434e89ade2
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Tue May 20 16:54:44 2025 +0800
+
+    搭建一下智能对话，尚未实现
+
+commit daa9b04cce0e3ebf24be15e1c6c5f33d0f9d3b7a
+Merge: 7fa1144 6d18190
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Tue May 20 16:38:37 2025 +0800
+
+    merge
+
+commit 7fa1144128b021d4031e08583cb1d6aac283fee6
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Tue May 20 15:57:53 2025 +0800
+
+    添加布局示例dashboard，详情请看doc前端中的前端结构说明，优化登录和注册页面
+
+commit 6d1819050d5c82d46d8b728133aab9e78c4eaa9f
+Merge: 2354e2b 0da6e2e
+Author: RRRRReus <18537268802@163.com>
+Date:   Sun May 18 21:37:02 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 2354e2b0861db4f4aaceaadcb2d3b9ce4c1aa530
+Author: RRRRReus <18537268802@163.com>
+Date:   Sun May 18 21:34:33 2025 +0800
+
+    新加智能中心页面框架，只有框架大致内容，没有具体内容
+
+commit 0da6e2e8505e46eeec67e0395e56661668cf3051
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Sun May 18 21:33:37 2025 +0800
+
+    # 更新README.md
+    
+    更新README.md，添加项目文档结构说明及开发规范
+
+commit d32d0c66780e25a2046696e59f5bf60227d232d4
+Merge: 2bf4b18 bdf703d
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Sun May 18 21:22:44 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 2bf4b1885be0ea9185a63c62d1d6cd6e04439c65
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Sun May 18 21:22:40 2025 +0800
+
+    # 删除多余结构
+
+commit bdf703d89c647b31366bde4507c0136a12b08586
+Merge: 59e9a12 b4ab035
+Author: RRRRReus <18537268802@163.com>
+Date:   Sun May 18 21:22:34 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 59e9a12eb37f301732f277fff71519bc7f19cc62
+Author: RRRRReus <18537268802@163.com>
+Date:   Sun May 18 21:22:28 2025 +0800
+
+    更改完善了一下maininfo的页面布局
+
+commit b4ab035e237e363167238c5e33c3eecb18c6f3a0
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Sun May 18 21:12:09 2025 +0800
+
+    # 持久化登录
+    
+    实现持久化登录功能，更新用户数据存储逻辑
+
+commit b1125204a5aa31d9a0ccb6a7713da06d056ab8da
+Author: wudizhiwan <2987183675@qq.com>
+Date:   Sat May 17 02:14:47 2025 +0800
+
+    加入爬取市场水产数据功能
+    加入市场展示界面
+
+commit f8c05db15ce7d7a5a1db30f438b65727f528693f
+Merge: 66062b0 2e8926d
+Author: wudizhiwan <2987183675@qq.com>
+Date:   Sat May 17 00:48:15 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 66062b0061623bcf2f26c0825292173cfd014e9c
+Author: wudizhiwan <2987183675@qq.com>
+Date:   Sat May 17 00:45:57 2025 +0800
+
+    加入数据中心界面 加入天气数据
+    实现了天气数据的实时获取和展示
+    实现了当地降雨量的悬停展示
+
+commit 2e8926dd8f2e28e29b18c639d13e1041e7ca1a5a
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 21:24:32 2025 +0800
+
+    # 标题动画组件
+    
+    并添加 AnimatedTextChart 组件
+
+commit 8c7a2137b9ae7c196e534a4b21caa836b407adc0
+Merge: 62c4111 3ee313c
+Author: li-xinlong <lixlgood@foxmail.com>
+Date:   Fri May 16 12:18:03 2025 +0800
+
+    解决一些冲突
+
+commit 62c4111826d47e2c085eeec154929378413a78ca
+Author: li-xinlong <lixlgood@foxmail.com>
+Date:   Fri May 16 11:26:45 2025 +0800
+
+    # 鱼类数据的饼图和雷达图
+
+commit 3ee313ce0e6d1e709a5afb5413a98b7d939e67d1
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 01:47:52 2025 +0800
+
+    # 地图美化
+    
+    优化地图组件配置，增加缩放和拖拽支持，调整视觉样式
+
+commit 2b8a23a0de98b183a682b6fbdb5d9630ed24eba4
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 01:43:05 2025 +0800
+
+    # 美化模态框
+    
+    优化MapTest组件样式，调整背景色、边距和按钮样式
+
+commit 490eb226475cc2a5e8503431d3ae98c3c4ad5629
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 01:38:23 2025 +0800
+
+    # 统一管理map的style
+    优化 MapTest 组件，重构模态框样式和数据处理逻辑，提升用户体验
+
+commit f04e87a15ca831b473ed2d9ee2efb7516e2eb322
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 01:30:31 2025 +0800
+
+    # 接口文档和组件文档补充
+    
+    添加前端和后端接口文档的简明使用说明
+
+commit 2cd5045eacd7fc1ab25b4e53d5d199aacfda405a
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 01:27:39 2025 +0800
+
+    # 规范更新，组件化开发流程
+    
+    完善折线图开发文档，添加组件化开发流程及接口文档说明
+
+commit 2e48046b99e1dd98842a2dbea5a4240877f4dced
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 01:17:39 2025 +0800
+
+    # 折线图组件美化
+    优化折线面积图y轴范围和间隔计算，提高图表精度
+
+commit db8995faf3b2053e806f11dbcbbb0911c3df63d8
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 01:14:10 2025 +0800
+
+    # 折线图组件安装进入map界面
+    添加折线图组件以展示所选指标随时间变化的趋势
+
+commit efdd0dbb7c9bc4364a0f949f11d0fef9bd55723e
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 01:07:11 2025 +0800
+
+    # 折线图组件化
+    
+    重构LineArea组件，添加LineAreaChart组件以实现电导率数据的可视化
+
+commit 8e020ef7a22d4549282037d739b7682db580fa68
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 00:56:30 2025 +0800
+
+    # 折线图草稿
+    添加LineArea组件并在App中配置路由
+
+commit 5f251a4a0dfb3695912dcce61f5b4dd41795bb2e
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Fri May 16 00:49:19 2025 +0800
+
+    # map加了筛选指标
+    增加指标列选择功能，并优化模态框显示逻辑
+
+commit f3a85cd0f9cdf1017214695568c958e9ee954e21
+Author: RRRRReus <18537268802@163.com>
+Date:   Thu May 15 18:51:07 2025 +0800
+
+    WaterQuality完成组件组装，并将其导入maininfo页面中
+
+commit aeb2e6c1bfdd5b8cdc4ac06cab2c0e602b47666b
+Author: RRRRReus <18537268802@163.com>
+Date:   Thu May 15 18:00:56 2025 +0800
+
+    # 完全实现按日期排布的水质数据的可视化，更改其横坐标，已选定的数据进行展示，并可视化出进度条
+    
+    需要注意的点是，地点是在前端写死的
+
+commit 0aff6606c724e49daf1241e4a6317d1e8e613f37
+Merge: 759c050 7722fdb
+Author: RRRRReus <18537268802@163.com>
+Date:   Thu May 15 16:55:53 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 7722fdbb84d2eea133567a5f49120a94fa160501
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Thu May 15 13:40:02 2025 +0800
+
+    # 增加下拉框选中功能
+    优化地图数据模态框，增加流域和断面选择功能
+
+commit 759c05056f65d924cac863c5a23387c3287a936c
+Author: RRRRReus <18537268802@163.com>
+Date:   Thu May 15 12:23:04 2025 +0800
+
+    文件夹更名，更改数据路径
+
+commit bbeebd7d11056232d66a1d7e06ee2aa60c12241c
+Merge: 0178bed dd4d936
+Author: RRRRReus <18537268802@163.com>
+Date:   Thu May 15 12:21:03 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 0178bed215e26e609d56a585ce16a97bcf877596
+Author: RRRRReus <18537268802@163.com>
+Date:   Thu May 15 12:08:09 2025 +0800
+
+    # 按照日期排序的水质数据可视化图表调通
+    还需要更改图表的横轴，现在这个图表由于数据间大小差异过大导致展示不明显
+
+commit dd4d936a8ac783985753f2ad8d5a15380e60b0d8
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Thu May 15 12:05:18 2025 +0800
+
+    # 增加地图测试的路由
+
+commit 1dee032079d426bc31a910be8972337e50ca16ee
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Thu May 15 00:50:00 2025 +0800
+
+    # 地图点击显示数据
+    
+    优化水质数据获取逻辑，支持无 basin 和 site 参数时遍历目录，更新水质数据展示组件
+
+commit 848592339ad8508c5f7b0fcbde87ca6ab84fe52d
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 23:33:17 2025 +0800
+
+    # 地图测试更名
+
+commit 7038c973f484dd0481484e13b24a30b1da60d3e2
+Merge: 59af090 8ccb5e8
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 23:28:55 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 59af09007ab70b110e8d920dece62335d5384fe9
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 23:24:58 2025 +0800
+
+    # 添加数据服务端点和可视化工具
+    
+    引入了一个新的 Flask 路由，用于从后端目录提供数据文件。
+    在前端添加了 D3 和 ECharts 库，用于数据可视化。
+    实现了一个新的地图可视化页面，并将其集成到路由系统中。
+    优化了水质数据查看器，启用并注释了相关部分。
+    
+    通过新增开发工具增强了前端依赖管理。
+
+commit 8ccb5e8faf09b21a88fb2b83c94e125b587575d4
+Author: RRRRReus <18537268802@163.com>
+Date:   Wed May 14 22:32:32 2025 +0800
+
+    README.md更新
+
+commit 406a2d2f50be5cf92f579b9b49c2fd70b4e3b388
+Author: RRRRReus <18537268802@163.com>
+Date:   Wed May 14 22:25:49 2025 +0800
+
+    完成视频展示功能
+
+commit 8af44f95ac50027961fbf3e841ea10e46bd3e0e1
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 19:04:05 2025 +0800
+
+    添加按站点获取水质数据功能
+    
+    引入了根据站点、省份和流域获取水质数据的 API 端点。
+    
+    在后端集成了 CSV 文件解析功能，并添加了对缺少参数或文件的错误处理。更新了前端以表格形式显示站点特定的水质数据。新增了用于获取站点数据的服务函数。
+    
+    改进了数据可视化，提升了用户体验。
+
+commit 0593f100592c7c26d3d14b0b656d1ba7592e04ff
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 17:23:43 2025 +0800
+
+    # 重命名水质数据API路由和相关函数
+    
+    更新前端调用以匹配新接口
+
+commit a4329aeee0478415d60412749b3bf3cd2be4f49c
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 17:16:05 2025 +0800
+
+    # 水质数据前后端调通
+    
+    - 添加了用于显示水质数据的 `WaterDataViewer` 组件。
+    - 集成了使用 axios 实例的水质数据获取服务。
+    - 更新了 `App.tsx` 中的路由以包含 `WaterDataViewer`。
+    - 增强了 `Header` 组件，为已认证用户添加了指向 `WaterDataViewer` 的链接。
+    - 重构了登录和用户管理服务以使用集中化的 axios 实例。
+
+commit 7cc2a31abb48cc9a45450009282f1a2f2677e0ad
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 17:14:57 2025 +0800
+
+    # 开发前后端规范更新
+    
+    添加多张需求相关图片并更新文档
+
+commit 6dcf6171bd927d387328ab699a0077735c14c7cf
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 16:01:29 2025 +0800
+
+    # 数据上传
+    
+    水质太多ignore了，注意文件结构
+
+commit fa9920b6e6322e285e9c9e4e803a35d910384282
+Merge: ae1b125 37271ea
+Author: RRRRReus <18537268802@163.com>
+Date:   Wed May 14 15:43:45 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit ae1b1251f69b36d2f3788241292d2b1b16bd8206
+Author: RRRRReus <18537268802@163.com>
+Date:   Wed May 14 15:43:38 2025 +0800
+
+    修复环境配置脚本后端部分和后端启动脚本
+
+commit 37271ea6199fad4ff2c9e4bab91aee6702a87e9c
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 15:37:31 2025 +0800
+
+    # 更新文档：添加合并策略配置示例
+
+commit d36e57abc80975a23c35eb5b47171a6568ed83f3
+Merge: 452aad0 d88b3f6
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 15:21:40 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit 452aad0989da83189bd6a97fd59b840f13dceca2
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 15:21:14 2025 +0800
+
+    # 后端虚拟环境
+    
+    配置更新 .gitignore 文件以忽略 __pycache__ 目录，删除不必要的文件，添加数据库配置和环境要求文档
+
+commit d88b3f62fe6952f91c37c14a69c1f78abb21108b
+Author: RRRRReus <18537268802@163.com>
+Date:   Wed May 14 15:18:55 2025 +0800
+
+    编写linux环境下的环境配置脚本（待验证）和一键启动前后端脚本
+
+commit c585ae58bc914217371781f5231ef70dafdad576
+Merge: 6dfdc2f f996f0e
+Author: RRRRReus <18537268802@163.com>
+Date:   Wed May 14 14:52:38 2025 +0800
+
+    Merge branch 'main' of https://github.com/open-sun/software
+
+commit f996f0eeba188a740282e2f70acf6229e8390e15
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 14:46:24 2025 +0800
+
+    # gitignore更名
+
+commit 6dfdc2fee082ca9f51f128c96123aa74342f5c86
+Author: RRRRReus <18537268802@163.com>
+Date:   Wed May 14 14:45:29 2025 +0800
+
+    小小的修改
+
+commit 4ec4872f4e431fc25ead96fbdd65703864fffbf1
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 14:43:42 2025 +0800
+
+    # 添加 .gitignore 文件以忽略 venv 目录
+
+commit 2b2146fe45f873bdc90626e0e3e13162c1934a56
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 14:38:59 2025 +0800
+
+    # 软件开发文档草稿更名
+
+commit a58e960ae2f5686c89b5a46dd4d1bc9739639646
+Author: 2212323 <2212323@mail.nankai.edu.cn>
+Date:   Wed May 14 14:32:19 2025 +0800
+
+    # 添加项目文档库
+    
+    - 创建了包含中期和最终图像的新需求文档。
+    - 确立了开发标准，包括 Git 提交格式和文档规范。
+    - 起草了一份全面的软件开发文档，概述了项目概览、需求分析、系统设计、测试、项目管理和用户手册。
+
+commit 4bd4aae1341d7f28d1cd82bf227f66ab9d9f78f1
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Wed May 14 01:10:20 2025 +0800
+
+    adminmanagement
+
+commit 1e24afa38451370743c808675b384b6e0ac27290
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Wed May 14 00:52:27 2025 +0800
+
+    change
+
+commit 9c9183e549f15cc443ddd28cc2d0d87a9345a79e
+Author: 山泉水 <12871638+one-hundred-summer@user.noreply.gitee.com>
+Date:   Tue May 13 22:13:40 2025 +0800
+
+    first commit
