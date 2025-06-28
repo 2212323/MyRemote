@@ -1,14 +1,10 @@
+#B3 增加
 from flask import Flask
 from flask_cors import CORS
 from models import db
 import config
 
-from auth import auth_bp
-from water_data import water_bp
-from fish_data import fish_bp
-from weather_data import weather_bp
-from video_data import video_bp
-from market import market_bp
+
 from ai_tools import ai_bp
 
 app = Flask(__name__)
