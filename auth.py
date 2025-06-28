@@ -1,3 +1,5 @@
+
+#B3 EEE
 from flask import Blueprint, request, jsonify
 from werkzeug.security import generate_password_hash, check_password_hash
 from models import db, User
@@ -6,10 +8,7 @@ auth_bp = Blueprint("auth", __name__)
 
 @auth_bp.route("/api/register", methods=["POST"])
 def register():
-    data = request.get_json()
-    username = data.get('username')
-    password = data.get('password')
-    role = data.get('role')  # 默认为普通用户
+   
 
     # 检查用户名是否已存在
     existing_user = User.query.filter_by(username=username).first()
